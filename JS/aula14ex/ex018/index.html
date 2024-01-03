@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de Números</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Número(entre 1 - 100): <input type="number" max="100" min="0" name="entradaVal" id="entradaVal">
+                <input type="button" id="botAdd" value="Adicionar" onclick="adicionar()">
+            </p>
+        </div>
+        <div id="containerResultado">
+            <select name="lista" id="lista" size="10"></select>
+            <p><input type="button" value="Finalizar" onclick="finalizar()"></p>
+            <p id="resFim"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; RaffizMC</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
